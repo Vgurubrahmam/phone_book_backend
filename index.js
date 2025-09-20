@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 // const PhoneBook = require('./model/phonebook')
 const PhoneBook = require('./model/book');
 app.use(express.json());
-app.use(cors({ origin: "https://phone-book-assignment.vercel.app" }));
+app.use(cors());
 const PORT = 8000;
 
 const DB = process.env.MongoDB_URI

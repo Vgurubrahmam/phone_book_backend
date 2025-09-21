@@ -22,11 +22,8 @@ const PhoneBookSchema = new mongoose.Schema({
     type:String,
     required:true
 
-},
-imageurl:{
-    type:String,
-    required:true
 }
+
 
 })
 

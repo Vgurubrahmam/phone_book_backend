@@ -14,8 +14,8 @@ const PhoneBookSchema = new mongoose.Schema({
         required : true
     },
 
-    Adhar_no: {
-        type : Number,
+    email: {
+        type : String,
         required : true
         },
     Dateofbirth:{
